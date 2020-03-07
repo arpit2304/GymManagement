@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+.loginBox{
+	
+	margin-left: 75%;
+}
+.mainDiv{
+	top: 10em;
+    position: fixed;
+    margin-right: 10px;
+    font-family: sans-serif;
+    width: 98%;
+    height: 50%;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  position: relative;
+  height: 93%;
+  color: black;
+  display: none;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 48px;
+  bottom: 2px;
+  background-color: orange;
+}
